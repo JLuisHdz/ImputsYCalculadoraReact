@@ -61,6 +61,11 @@
   rgba(0, 0, 0, 0.12);
 }
 
+.btnUl button:hover {
+  background-color: rgb(129, 46, 170);
+  color: white;
+}
+
 .btns button{
   background-color: darkorchid;
   color: white;
@@ -70,4 +75,9 @@
   box-shadow: 0 8px 16px 0
   rgba(0, 0, 0, 0.2), 0 6px 20px 0
   rgba(0, 0, 0, 0.12);
+}
+
+.btns button:hover {
+  background-color: rgb(129, 46, 170);
+  color: white;
 }
