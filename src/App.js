@@ -9,7 +9,9 @@ function App() {
   const [name, setName] = useState("");
   const [lastName, setLastname] = useState("");
 
-  
+  const [number, setNumber] = useState({ counter: 0, });
+  const [numOne, setNumOne] = useState("");
+  const [numTwo, setNumTwo] = useState("");
 
   return (
     <div className="App">
