@@ -46,6 +46,22 @@ function App() {
           ))}
         </ul>
       </div>
+      <div className="prtTwo">
+        <input
+          type="number"
+          name="numOne"
+          onChange={(event) => {
+            setNumOne(event.target.value);
+          }}
+        />
+        <input
+          type="number"
+          name="numTwo"
+          onChange={(event) => {
+            setNumTwo(event.target.value);
+          }}
+        />
+      </div>
     </div>
   );
 }
