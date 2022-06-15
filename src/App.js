@@ -61,6 +61,21 @@ function App() {
             setNumTwo(event.target.value);
           }}
         />
+       <div className="btns">
+       <button>
+          Sumar
+        </button>
+        <button>
+          Restar
+        </button>
+        <button>
+          Multiplicar
+        </button>
+        <button>
+          Dividir
+        </button>
+       </div>
+        <h1 className="text">Result: {number.counter}</h1>
       </div>
     </div>
   );
