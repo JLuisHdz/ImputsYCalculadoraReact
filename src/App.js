@@ -62,17 +62,45 @@ function App() {
           }}
         />
        <div className="btns">
-       <button>
-          Sumar
+       <button
+          onClick={() => {
+            setNumber((current) => ({
+              ...current,
+              counter: Number(numOne) + Number(numTwo),
+            }));
+          }}
+        >
+          +
         </button>
-        <button>
-          Restar
+        <button
+          onClick={() => {
+            setNumber((current) => ({
+              ...current,
+              counter: Number(numOne) - Number(numTwo),
+            }));
+          }}
+        >
+          -
         </button>
-        <button>
-          Multiplicar
+        <button
+          onClick={() => {
+            setNumber((current) => ({
+              ...current,
+              counter: Number(numOne) * Number(numTwo),
+            }));
+          }}
+        >
+          x
         </button>
-        <button>
-          Dividir
+        <button
+          onClick={() => {
+            setNumber((current) => ({
+              ...current,
+              counter: Number(numOne) / Number(numTwo),
+            }));
+          }}
+        >
+          /
         </button>
        </div>
         <h1 className="text">Result: {number.counter}</h1>
