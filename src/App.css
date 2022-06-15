@@ -11,3 +11,35 @@
   overflow: hidden;
   box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
 }
+
+.App input {
+  background: rgb(112, 47, 233);
+  border: 1.5px solid;
+  border-color: rgb(204, 142, 240);
+  color: rgb(255, 255, 255);
+  width: 287px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.App h1 {
+  background: rgb(112, 47, 233);
+  border-color: rgb(204, 142, 240);
+  color: #fff;
+  font-size: large;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 588px;
+}
+
+.App h2 {
+  margin: 0;
+  padding: 8px;
+  background-color: rgb(79, 32, 167);
+  color: rgb(255, 255, 255);
+}
+
+
+
